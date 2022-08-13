@@ -39,5 +39,6 @@ public class CircleApp {
                     throw new IllegalStateException("Unexpected value: " + userChoice);
             }
         } while (userChoice != 4);
+        userInput.close();
     }
 }
