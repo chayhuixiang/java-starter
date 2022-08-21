@@ -21,5 +21,4 @@ public class Rectangle {
   public double getArea() {
       return this.length * this.width;
   }
-  
 }
