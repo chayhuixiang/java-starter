@@ -29,5 +29,9 @@ public class Bedroom {
       System.out.print("Bedroom -> Making bed | ");
       this.bed.make();
   }
+
+  public void getDetails() {
+    System.out.println(name.toString() + wall1.toString() + wall2.toString() + wall3.toString() + wall4.toString() + ceiling.toString());
+  }
   
 }
